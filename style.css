@@ -173,6 +173,25 @@ main{
     width: 25%;
 }
 
+.search-button{
+    padding: 10px;
+}
+
+input[type="search"]{
+    float: left;
+    background: rgba(0, 0, 0, 0.04);
+    color: #999999;
+    width: 72%;
+    font-size: 1em;
+    line-height: 1.4;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+button{
+    padding:10px;
+}
+
 .box{
     padding: 20px;
 }
@@ -198,8 +217,14 @@ footer.footer-info{
     display: block;
 }
 
+.footer-info::after{
+    padding: 40px;
+    display: block;
+}
+
 footer .align-left{
     float:left;
+    width: 30%;
 }
 
 footer .align-right{
