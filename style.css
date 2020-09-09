@@ -1,0 +1,167 @@
+/* Selettore generale*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+body{
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png');
+    font-family:sans-serif;
+}
+
+.shadow{
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, .24);
+}
+
+h1{
+    font-size: 45px;
+    text-decoration: none;
+}
+
+h2{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+h3{
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+}
+
+h4{
+    color: black;
+    text-shadow: 3px 3px 4px rgba(154, 156, 163, 1);
+    font-size: 30px;
+    line-height: 1;
+    text-decoration: none;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+hr{
+    margin:20px;
+}
+
+#wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-image: url('https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg');
+    background-size: cover;
+    height: 200px;
+    margin-top: 20px;
+    padding: 50px 0;
+    border: 10px solid white;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav.menu{
+    background-color: #504741;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    padding:0 15px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+
+nav a{
+    color: white;
+}
+
+nav li:hover{
+    background-color: #302b27;
+}
+
+.container{
+    width: 100%;
+}
+
+/* Applicazione Clearfix sulla classe .container*/
+.container::after{
+    content: "";
+    display:table;
+    clear: both;
+}
+
+aside{
+    background-color: white;
+}
+
+aside.left{
+    float:left;
+}
+
+main{
+    background-color: white;
+    width: calc(48.75% - 15px);
+    margin: 0 15px;
+    float: left;
+}
+
+.post{
+    padding:20px;
+}
+
+.date-comment{
+    margin: 10px 0;
+}
+
+.post-write{
+    padding:20px;
+    line-height: 1.5;
+    text-align: inherit;
+}
+
+.post-end-meta{
+    padding:20px;
+    margin:10px 0;
+}
+
+.left-boxes{
+    float: left;
+    width: 25%;
+}
+
+.right-boxes{
+    float: right;
+    width: 25%;
+}
+
+.box{
+    padding: 20px;
+}
+
+aside.box{
+    margin-bottom: 15px;
+}
+
+li{
+    list-style: none;
+}
+
+footer{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 20px;
+    background-color: white;
+    height: 65px;
+}
