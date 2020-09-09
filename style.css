@@ -173,23 +173,16 @@ main{
     width: 25%;
 }
 
-.search-button{
+.search-type{
     padding: 10px;
+    border:2px solid rgba(0,0,0,0.2);
 }
 
-input[type="search"]{
-    float: left;
-    background: rgba(0, 0, 0, 0.04);
-    color: #999999;
-    width: 72%;
-    font-size: 1em;
-    line-height: 1.4;
-    box-sizing: border-box;
-    border: 1px solid rgba(0, 0, 0, 0.12);
-}
-
-button{
-    padding:10px;
+.search-button{
+    background-color: #504741;
+    color:white;
+    padding: 10px 15px;
+    border-radius: 3px;
 }
 
 .box{
@@ -202,6 +195,7 @@ aside.box{
 
 li{
     list-style: none;
+    padding: 5px 10px;
 }
 
 footer{
